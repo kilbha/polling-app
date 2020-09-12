@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <title>Results table</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="{% static 'js/main.js' %}"></script>
+    <nav class="navbar navbar-light bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href=" ">Results</a>
+            <a class="navbar-brand" href="/">Home</a>
+        </div>
+    </nav>
+    
+</head>
+<body>
+    <div class="container text-center">
+        <div class="col-md-6 border rounded mt-3 mb-3">
+            <canvas id="myChart"></canvas>
+        </div>
+    </div>    
+</body>
+</html>
